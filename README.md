@@ -1,5 +1,5 @@
 # Project-1-
-Holly and Tony's repo for project 1 on Washington State Electric Vehicle Trends
+A Washington State elctric vehicle trend slideshow by Holly and Tony
 
 This is a study examining electric vehicle trends in Washington State. The scope of the study:
 Age of vehicles currently in circulation
@@ -10,7 +10,20 @@ Deliver information regarding major manufacturers plans to convert to full lines
 
 
 
-Source code (Holly):
+ANALYSIS OF ELECTRIC VEHICLES IN WASHINGTON STATE
+Data is sourced from Data obtained from https://catalog.data.gov/dataset/electric-vehicle-population-data
+Information provided is a high level summary for electric vehicles in the state of Washington
+graphs include information regarding trends over the past 3 decades
+graphs discuss data regarding tax incentives/rebates/exemptions for purchasing an electric vehicle
+slideshow demonstrates major car maufacturers expected EV lineup dates
+presentation shows location of EV's in WA and their electric range
+slides demonstrate null hypothesis to be true over initial hypothesis
+
+
+
+
+
+<!-- Source code (Holly):
 
 #How to create a seaborn correlation heatmap in Python?.Geeks for Geeks. (https://www.geeksforgeeks.org/how-to-create-a-seaborn-correlation-heatmap-in-python/). (Accessed on February 6, 2024).
 data = electric_vehicle_df[['Electric Range', 'Model Year']]
@@ -62,10 +75,21 @@ Credits:
 https://matplotlib.org/stable/index.html
 Data obtained from https://catalog.data.gov/dataset/electric-vehicle-population-data
 Python Software Foundation. (2024). Python Language Reference, version 3.12.1. Available at [https://docs.python.org/3.8/.](https://docs.python.org/3/index.html)
-Images courtesy of https://unsplash.com/s/photos/electric-car
+Images courtesy of https://unsplash.com/s/photos/electric-car -->
 
 
+graphs requested:
+![Alt text](tonys_code/ev_county_graph.png)
+![Alt text](tonys_code/ev_trend.png)
+![Alt text](tonys_code/washington_map_visual.jpeg)
 
-Acknowledgments:
+![Alt text](Holly_Plots_Final/highest_manufacture.png)
+Used the Pearson correlation coefficient to determine if there was a correlation between car manufacture and electrical vehicle range
+Weak positive correlation Pearson Correlation Coefficient: 0.07193586773978594
+![Alt text](Holly_Plots_Final/Distribution_Ranges_Car_Makes_plot1.png)
 
+Used the Cramer's V:0 chi-square test provided there is no correlation between the two variables of total EVs in circulation and car manufacture
+![Alt text](Holly_Plots_Final/highest_manufacture.png)
 
+Used the Pearson's Correlation Coefficient found no correlation between age and count of EVs in circulation.  -0.12888215071722858 shows a weak negative correlation
+![Alt text](Holly_Plots_Final/EV_By_Age_Make_plot1.png)
