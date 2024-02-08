@@ -160,4 +160,6 @@ cython_debug/
 #.idea/
 
 .DS_Store
-Project-1/Project-1-/Electric_Vehicle_Population_Data.csv
+Project-1/Project-1-/Electric_Vehicle_Population_Data.csv\
+Electric_Vehicle_Population_Data.csv
+ev_df.csv
